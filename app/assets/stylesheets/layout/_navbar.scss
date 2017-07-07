@@ -21,7 +21,7 @@
 
 /* Navbar logo */
 .navbar-wagon-brand img {
-  width: 50px;
+  width: 100px;
 }
 
 /* Navbar right section (with form, links, button) */
@@ -61,6 +61,7 @@
 }
 .navbar-wagon-button:hover {
   color: white;
+  opacity: 0.8;
   background: #D23333;
   border-color: #ac2626;
 }
