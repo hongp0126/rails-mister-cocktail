@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 url = "http://www.thecocktaildb.com/api/json/v1/1/list.php?i=list"
 cocktails = JSON.parse(open(url).read)
 cocktails["drinks"].uniq.map do |ingredient|
